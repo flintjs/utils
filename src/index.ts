@@ -6,7 +6,7 @@ export {
     randomArrayItem,
     randomNumber,
     truncate
-} from "./utilities/Helpers"
+} from "./utilities/Helpers.js"
 
 export {
     toCode,
@@ -14,7 +14,9 @@ export {
     toBold,
     toItalic,
     toUnderline,
-    toStrikethrough
-} from "./utilities/Fluxer"
+    toStrikethrough,
+    buildTimestamp,
+    TimestampStyles
+} from "./utilities/Fluxer.js"
 
-export { Stopwatch } from "./utilities/Stopwatch"
+export { Stopwatch } from "./utilities/Stopwatch.js"
